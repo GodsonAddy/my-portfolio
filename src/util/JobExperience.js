@@ -5,7 +5,7 @@ const JobExperience = [
     year: " MAY 2021 - MAY 2022",
     role: "Software Developer",
     priority:
-      " ● Involved in the machine learning and automated testing of TOBi(an intelligent bot) on IBM Watson. ● Building of admin dashboards and other projects for internal use only. ●Testing on qbox, ● Writing of Developer Documents on Confluence. ● Learn the use of Agile and Jira. ● Integration of APIs. ● Testing and CI/CD",
+      " ● Involved in the machine learning and automated testing of TOBi(an intelligent bot) on IBM Watson. ● Building of admin dashboards and web applications for internal use only. ●Testing on qbox. ● Writing of Developer Documents on Confluence.  ● Building reusable components and consuming APIs. ● Optimization of internal applications. ● Good knowledge in agile and scrum. ● Testing and automation. ● CI/CD",
     skills: [
       " Vue ",
       " Redux Toolkit ",
