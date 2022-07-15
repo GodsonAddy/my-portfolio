@@ -37,7 +37,17 @@ const Projects = () => {
                 ({ id, link, title, github, description, skills }) => {
                   return (
                     <Grid item xs={4} key={id} style={{ display: "flex" }}>
-                      <Card sx={{ minWidth: 275 }} variant="outlined">
+                      <Card
+                        sx={{
+                          minWidth: 275,
+                          "&:hover": {
+                            backgroundColor: "silver[400]",
+                            transform: "scale(1.0)",
+                            boxShadow: "1px 1px 30px silver",
+                          },
+                        }}
+                        variant="outlined"
+                      >
                         <CardContent>
                           <Typography
                             color="#b71c1c"

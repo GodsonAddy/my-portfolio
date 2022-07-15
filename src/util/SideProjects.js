@@ -35,7 +35,7 @@ const SideProjects = [
     link: "https://github.com/GodsonAddy/dashboard",
     title: "Admin Dashboard",
     github: "https://github.com/GodsonAddy/dashboard",
-    description: [{ type: "  An Admin dashboard for any king of app " }],
+    description: [{ type: "  An Admin dashboard for any kind of app " }],
     skills: [" ● React ", " ● Material UI "],
   },
 
