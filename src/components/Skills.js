@@ -1,34 +1,7 @@
 import React from "react";
 import { Box, Container, Grid, Typography } from "@mui/material";
 import CheckBoxRoundedIcon from "@mui/icons-material/CheckBoxRounded";
-
-const stack = [
-  "Javascript",
-  "HTML",
-  "CSS",
-  "React",
-  "Vue",
-  "NodeJs",
-  "MongoDB",
-  "Express",
-  "Redux Toolkit",
-  "Storybook",
-  "Firebase",
-  "Typescript",
-  "Agile",
-  "D3.js",
-  "Babel",
-  "JQuery",
-  "Sass",
-  "Bootstrap",
-  "Material-UI",
-  "Jest",
-  "React-testing library",
-  "CI/CD",
-  "Vuex",
-  "Git & Github",
-  "Agile",
-];
+import Stack from "../util/Stack";
 
 const Skills = () => {
   return (
@@ -50,16 +23,18 @@ const Skills = () => {
           </Grid>
           <Grid item>
             <Grid container spacing={2} display="flex" direction="row">
-              {stack.map((el, id) => (
-                <Grid item xs={3} key={id}>
-                  <Typography color="white">
-                    <CheckBoxRoundedIcon
-                      sx={{ display: "inline-flex", verticalAlign: "top" }}
-                    />
-                    {el}
-                  </Typography>
-                </Grid>
-              ))}
+              {Stack.map((el, id) => {
+                return (
+                  <Grid item xs={3} key={id}>
+                    <Typography color="white">
+                      <CheckBoxRoundedIcon
+                        sx={{ display: "inline-flex", verticalAlign: "top" }}
+                      />
+                      {el}
+                    </Typography>
+                  </Grid>
+                );
+              })}
             </Grid>
           </Grid>
         </Grid>
