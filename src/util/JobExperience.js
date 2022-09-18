@@ -1,6 +1,16 @@
 const JobExperience = [
   {
     id: 1,
+    company: "GHANA SCIENCE & TECH EXPLORER PRIZE (GSTEP)",
+    year: " AUGUST 2022 - till present",
+    role: "MENTOR",
+    priority:
+      " ● Mentor GSTEP Ambassador. ● Help Ambassadors how to become an effective mentor. ●Presentation & CommunicationSkills. ● Idea Generation.  ● Public speaking and pitching.",
+    skills: [" Soft Skills "],
+  },
+
+  {
+    id: 2,
     company: "Vodafone Ghana",
     year: " MAY 2021 - MAY 2022",
     role: "Software Developer",
@@ -21,7 +31,7 @@ const JobExperience = [
   },
 
   {
-    id: 2,
+    id: 3,
     company: "HENY",
     year: "MARCH 2021 - APRIL 2021",
     role: "Frontend Developer",
@@ -31,7 +41,7 @@ const JobExperience = [
   },
 
   {
-    id: 3,
+    id: 4,
     company: "CreativeClick Multimedia",
     year: "MARCH 2020",
     role: "Frontend Developer",
