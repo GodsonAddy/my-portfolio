@@ -27,7 +27,7 @@ const Header = () => {
             display="flex"
           >
             <Grid item xs={12} sm={6}>
-              <Grid container flexDirection="column" spacing={2} display="flex">
+              <Grid container flexDirection="column" display="flex">
                 <Grid item>
                   <Typography
                     component="div"
