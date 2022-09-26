@@ -15,29 +15,42 @@ const Skills = () => {
       }}
     >
       <Container>
-        <Grid container spacing={2} display="flex" direction="column">
-          <Grid item display="flex" justifyContent="center" alignItems="center">
-            <Typography variant="h5" color="#f44336" sx={{ fontWeight: "700" }}>
-              Stack
-            </Typography>
-          </Grid>
-          <Grid item>
-            <Grid container spacing={2} display="flex" direction="row">
-              {Stack.map((el, id) => {
-                return (
-                  <Grid item xs={3} key={id}>
-                    <Typography color="white">
-                      <CheckBoxRoundedIcon
-                        sx={{ display: "inline-flex", verticalAlign: "top" }}
-                      />
-                      {el}
-                    </Typography>
-                  </Grid>
-                );
-              })}
+        <Box>
+          <Grid
+            container
+            spacing={2}
+            display="flex"
+            justifyContent="center"
+            alignItems="center"
+            flexDirection="column"
+          >
+            <Grid item>
+              <Typography
+                variant="h5"
+                color="#f44336"
+                sx={{ fontWeight: "700" }}
+              >
+                Stack
+              </Typography>
+            </Grid>
+            <Grid item>
+              <Grid container spacing={2} display="flex" direction="row">
+                {Stack.map((el, id) => {
+                  return (
+                    <Grid item xs={6} key={id} sm={3}>
+                      <Typography color="white">
+                        <CheckBoxRoundedIcon
+                          sx={{ display: "inline-flex", verticalAlign: "top" }}
+                        />
+                        {el}
+                      </Typography>
+                    </Grid>
+                  );
+                })}
+              </Grid>
             </Grid>
           </Grid>
-        </Grid>
+        </Box>
       </Container>
     </Box>
   );
