@@ -1,6 +1,15 @@
 const SideProjects = [
   {
     id: 1,
+    link: "https://cake-app.onrender.com/",
+    title: "Cake App",
+    github: "https://github.com/GodsonAddy/cake-app",
+    description: [{ type: "  A modern cake app " }],
+    skills: [" ● Next js ", " ● Material-Ui ", " ● Swiper "],
+  },
+
+  {
+    id: 2,
     link: "https://www.npmjs.com/package/flashcardui",
     title: "Flashcardui: NPM Package",
     github: "https://github.com/GodsonAddy/flashcardui",
@@ -22,7 +31,7 @@ const SideProjects = [
   },
 
   {
-    id: 2,
+    id: 3,
     link: "https://blogmentary.onrender.com/",
     title: "Blog App",
     github: "https://github.com/GodsonAddy/blog",
@@ -46,7 +55,7 @@ const SideProjects = [
   },
 
   {
-    id: 3,
+    id: 4,
     link: "https://pay-genio.web.app/wallet",
     title: "Financial App",
     github: "https://github.com/GodsonAddy/genio",
@@ -60,7 +69,7 @@ const SideProjects = [
   },
 
   {
-    id: 4,
+    id: 5,
     link: "https://github.com/GodsonAddy/dashboard",
     title: "Admin Dashboard",
     github: "https://github.com/GodsonAddy/dashboard",
@@ -72,7 +81,7 @@ const SideProjects = [
   },
 
   {
-    id: 5,
+    id: 6,
     link: "https://github.com/GodsonAddy/download-multiple-jsonfiles",
     title: "Download Multiple JSON Files",
     github: "https://github.com/GodsonAddy/download-multiple-jsonfiles",
@@ -89,7 +98,7 @@ const SideProjects = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     link: "https://godsonaddy.github.io/payment-flow",
     title: "Payment flow for an Ecommerce App",
     github: "https://github.com/GodsonAddy/payment-flow",
@@ -107,7 +116,7 @@ const SideProjects = [
     ],
   },
   {
-    id: 7,
+    id: 8,
     link: "https://godsonaddy.github.io/covid-19-tracker/",
     title: "COVID-19 Tracker",
     github: "https://github.com/GodsonAddy/covid-19-tracker",
